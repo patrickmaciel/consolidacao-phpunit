@@ -1,0 +1,26 @@
+{
+    "name": "p4dev/consolidacao-phpunit",
+    "require": {
+        "phpunit/phpunit": "^10.3",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "scripts": {
+        "test": "phpunit --bootstrap bootstrap.php --colors --testdox tests"
+    },
+    "autoload": {
+        "psr-4": {
+            "P4dev\\ConsolidacaoPhpunit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patrick Maciel",
+            "email": "patrickmaciel.info@gmail.com"
+        }
+    ]
+}

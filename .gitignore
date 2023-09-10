@@ -1,0 +1,9 @@
+vendor/
+.env
+*.sqlite
+phpunit.xml.dist.bak
+.phpunit.result.cache
+.phpunit.cache/
+.idea
+.vscode
+*.log
